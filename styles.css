@@ -1,0 +1,128 @@
+/*
+.content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 16px;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    text-align: center; 
+    
+}
+*/
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+    gap: 16px;
+    background-color: rgb(150, 185, 194);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+.item{
+    width: 160px;
+    height: 100px;
+    border: 1px solid #000;
+    text-align: center; 
+    color: azure;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    background-color: rgb(89, 138, 150);
+}
+/*
+.conteiner{
+    width: 1440px;
+    margin: auto;
+}
+*/
+.center{
+    padding-left: calc(50% - 720px);
+    padding-right: calc(50% - 720px);
+}
+.product{
+    width: 250px;
+    height: 250px;
+    border: 1px solid #000;
+    text-align: center;
+    font-size: 70px;;
+    margin-top: 30px;  
+    padding-top: 30px; 
+}
+.product-1{
+    background-color: rgb(143, 23, 23);
+    color: beige;
+}
+.product-2{
+    background-color: rgb(56, 43, 95);
+    color: beige;
+}
+.product-3{
+    background-color: rgb(36, 98, 73);
+    color: beige;
+}
+.product-4{
+    background-color: rgb(203, 208, 56);
+    color: rgb(71, 8, 8);
+}
+.product-5{
+    background-color: rgb(210, 122, 180);
+    color: rgb(71, 8, 8);
+}
+.product-6{
+    background-color: rgb(40, 43, 42);
+    color: beige;
+}
+.product-7{
+    background-color: rgb(101, 110, 106);
+    color: beige;
+}
+.product-8{
+    background-color: rgb(209, 220, 215);
+    color: rgb(71, 8, 8);
+}
+.product-box{
+    display: flex;
+    gap: 17px;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: rgb(150, 185, 194);
+}
+@media(max-width: 767px){
+    .item{
+        width: 43px;
+        font-size: 15px;
+        height: 40px;
+    }
+    .content{
+        gap: 7px;
+    }
+}
+@media(max-width: 1024px){
+    .item{
+        width: 110px;
+        font-size: 40px;
+        height: 80px;
+    }
+    .content{
+        gap: 15px;
+    }
+}
+@media(max-width: 670px){
+    .item{
+        width: 50px;
+        font-size: 17px;
+        height: 37px;
+    }
+    .content{
+        gap: 7px;
+    }
+}
